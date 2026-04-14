@@ -1,0 +1,33 @@
+HTTP/1.1 301 Moved Permanently
+Location: https://www.google.com/
+Content-Type: text/html; charset=UTF-8
+Content-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce-pCDUqXS3wVn-OjH1Lxt53g' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+Date: Mon, 13 Apr 2026 05:00:07 GMT
+Expires: Wed, 13 May 2026 05:00:07 GMT
+Cache-Control: public, max-age=2592000
+Server: gws
+Content-Length: 220
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+HTTP/1.1 200 OK
+Date: Mon, 13 Apr 2026 05:00:08 GMT
+Expires: -1
+Cache-Control: private, max-age=0
+Content-Type: text/html; charset=ISO-8859-1
+Content-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce-zL7gExtIWrtOVJK04wXALw' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+Accept-CH: Sec-CH-Prefers-Color-Scheme
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Server: gws
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: __Secure-STRP=AEEP7gIF5aCvCQWl79kBWa6KdT1sD7p8p7IQgm-teHLmJ-GjcVC5-BsPC97lbuOCX4p4gjOgaH3Z1hUYxi2w68lpnENE9JBjWTeK; expires=Mon, 13-Apr-2026 05:05:08 GMT; path=/; domain=.google.com; Secure; SameSite=strict
+Set-Cookie: AEC=AaJma5ssPb2S0fR8_PsJPEet0IX7RR7OLavV3ePzgV5fw9UxayE5hKHrlYA; expires=Sat, 10-Oct-2026 05:00:08 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+Set-Cookie: NID=530=gotB83RW7sDiQP83wvgLE5hD1UWX2qmw4H0Qq2fqeNXlyjXoXqXzvLPSSxBRVVrkRouXvxFflVqKBYdPcQFI7ESulhu_AgShH9sQAmVUy-giuFCTkD9lZYGkg6EewC8hKsxgf7UZTXJ9FJPI5YBcWnOz-smF1CHM-wJfH-05F9kDoFKMvQr98tm6TywJivVG_IYInU3ZFgmYpm81BFqyNvRczKjGrrOX5FU; expires=Tue, 13-Oct-2026 05:00:08 GMT; path=/; domain=.google.com; HttpOnly
+Set-Cookie: __Secure-BUCKET=CK4F; expires=Sat, 10-Oct-2026 05:00:08 GMT; path=/; domain=.google.com; Secure; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Accept-Ranges: none
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
+
