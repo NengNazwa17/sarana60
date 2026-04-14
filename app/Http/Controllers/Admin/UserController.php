@@ -79,9 +79,10 @@ class UserController extends Controller
         $user = User::findOrFail($id);
 
         // Prevent admin from deleting themselves
-        if (auth()->id() == $user->id) {
+        if (auth()->id()== $user->id)
+            {
             return redirect()->route('admin.users.index')->withErrors(['error' => 'Anda tidak bisa menghapus akun Anda sendiri!']);
-        }
+            }
 
         $user->delete();
 
